@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bingo Online</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎉 Bingo Online 🎉</h1>
+
+  <div id="cartela"></div>
+
+  <div class="controles">
+    <button onclick="sortearNumero()">Sortear</button>
+    <button onclick="autoSortear()">Auto</button>
+    <button onclick="pararAuto()">Parar</button>
+    <button onclick="novaCartela()">Nova Cartela</button>
+    <button onclick="limparCartela()">Limpar</button>
+    <button onclick="reiniciar()">Reiniciar</button>
+  </div>
+
+  <div id="painel">
+    <p>Último número: <span id="ultimo"></span></p>
+    <p>Números sorteados: <span id="historico"></span></p>
+  </div>
+
+  <div id="vitorias"></div>
+
+  <footer>
+    <p>⚠️ Protótipo educativo. Sem apostas em dinheiro real.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
